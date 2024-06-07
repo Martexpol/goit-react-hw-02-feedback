@@ -1,0 +1,25 @@
+.main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #201e50;
+}
+
+.mainHeader {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feedbackContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  width: 400px;
+  height: 430px;
+  background-color: eff1f3;
+  margin: 50px auto;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #201e50;
+  -webkit-box-shadow: 8px 8px 66px 38px rgba(204, 206, 235, 1);
+  -moz-box-shadow: 8px 8px 66px 38px rgba(204, 206, 235, 1);
+  box-shadow: 8px 8px 66px 38px rgba(204, 206, 235, 1);
+}

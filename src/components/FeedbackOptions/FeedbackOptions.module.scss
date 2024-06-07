@@ -1,0 +1,58 @@
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.btnGood,
+.btnNeutral,
+.btnBad {
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btnGood {
+  background-image: linear-gradient(
+    to right,
+    #1d976c 0%,
+    #93f9b9 51%,
+    #1d976c 100%
+  );
+}
+.btnNeutral {
+  background-image: linear-gradient(
+    to right,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+}
+
+.btnBad {
+  background-image: linear-gradient(
+    to right,
+    #eb3349 0%,
+    #f45c43 51%,
+    #eb3349 100%
+  );
+}
+
+.btnGood:hover,
+.btnNeutral:hover,
+.btnBad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
